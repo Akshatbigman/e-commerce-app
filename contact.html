@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Fashion Trends</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="nav-bar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="" width="125px">
+            
+          </a>
+        </div>
+        <nav>
+          <ul id="menu-item">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Login.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img src="img/cart.png" width="30px" height="30px">
+        </a>
+      </div>
+      <h1>Contact us</h1>
+      <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input class="input" type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input  class="input" type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea><br><br>
+      <input class="submit" type="submit" value="Submit">
+    </form>
+      <footer>
+  <div class="footer-content">
+    <p>&copy; 2023 My E-commerce. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="footer-logo">
+    <img src="img/logo.png" alt="Logo">
+  </div>
+</footer>
+</body>
+</html>
